@@ -1,0 +1,64 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\geometry{a4paper, margin=2.5cm}
+
+\title{\textbf{Tugas Praktikum: Website Katalog Sederhana dengan Django}}
+\author{
+    \textbf{Faris Zain As-Shadiq} \\
+    NPM: 2308107010039
+}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Detail Pengumpulan}
+\begin{itemize}
+    \item \textbf{Nama:} Faris Zain As-Shadiq
+    \item \textbf{NPM:} 2308107010039
+    \item \textbf{Link GitHub:} \href{https://github.com/fariszain/Katalog_Faris.git}{https://github.com/fariszain/Katalog\_Faris.git}
+\end{itemize}
+
+\section*{Penjelasan Singkat Program}
+Proyek ini adalah sebuah website katalog produk sederhana yang dibangun menggunakan framework Django. Website ini bertujuan untuk menampilkan daftar produk beserta detailnya. Data produk yang ditampilkan menggunakan data \textit{hardcoded} di \texttt{views.py} (tidak menggunakan database). Terdapat empat halaman utama yaitu Homepage, Daftar Produk, Detail Produk, dan Kontak. Seluruh mekanisme \textit{routing} memanfaatkan sistem \texttt{urls.py} dan \textit{template} HTML dari Django.
+
+\newpage
+\section*{Lampiran Screenshot}
+
+\subsection*{1. Homepage (URL: \texttt{/})}
+\begin{figure}[h!]
+    \centering
+    % Pastikan Anda mengganti 'home.png' dengan nama file screenshot Anda
+    \includegraphics[width=0.8\textwidth]{home.png}
+    \caption{Tampilan Homepage}
+\end{figure}
+
+\subsection*{2. Halaman Daftar Produk (URL: \texttt{/produk/})}
+\begin{figure}[h!]
+    \centering
+    % Pastikan Anda mengganti 'produk.png' dengan nama file screenshot Anda
+    \includegraphics[width=0.8\textwidth]{produk.png}
+    \caption{Tampilan Daftar Produk (Menampilkan 3 Produk)}
+\end{figure}
+
+\subsection*{3. Halaman Detail Produk (URL: \texttt{/produk/<id>/})}
+\begin{figure}[h!]
+    \centering
+    % Pastikan Anda mengganti 'detail.png' dengan nama file screenshot Anda
+    \includegraphics[width=0.8\textwidth]{detail.png}
+    \caption{Tampilan Detail Produk Berdasarkan ID}
+\end{figure}
+
+\subsection*{4. Halaman Kontak (URL: \texttt{/kontak/})}
+\begin{figure}[h!]
+    \centering
+    % Pastikan Anda mengganti 'kontak.png' dengan nama file screenshot Anda
+    \includegraphics[width=0.8\textwidth]{kontak.png}
+    \caption{Tampilan Halaman Kontak}
+\end{figure}
+
+\end{document}

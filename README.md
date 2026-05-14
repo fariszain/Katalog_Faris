@@ -1,8 +1,8 @@
 # Website Katalog Sederhana dengan Django
 
 ## Identitas
-- **Nama**: Naufal Aqil
-- **NIM**: [Isi NIM Kamu di sini]
+- **Nama**: Faris Zain As-Shadiq
+- **NPM**: 2308107010039
 
 ## Penjelasan Singkat Program
 Proyek ini adalah sebuah website katalog produk sederhana yang dibangun menggunakan framework Django. Website ini bertujuan untuk menampilkan daftar produk beserta detailnya. Data produk yang ditampilkan menggunakan data _hardcoded_ (tidak menggunakan database).
