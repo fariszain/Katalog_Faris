@@ -1,8 +1,8 @@
 # Website Katalog Sederhana dengan Django
 
 ## Identitas
-- **Nama**: [Nama Anda]
-- **NIM**: [NIM Anda]
+- **Nama**: Naufal Aqil
+- **NIM**: [Isi NIM Kamu di sini]
 
 ## Penjelasan Singkat Program
 Proyek ini adalah sebuah website katalog produk sederhana yang dibangun menggunakan framework Django. Website ini bertujuan untuk menampilkan daftar produk beserta detailnya. Data produk yang ditampilkan menggunakan data _hardcoded_ (tidak menggunakan database).
