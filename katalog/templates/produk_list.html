@@ -1,0 +1,9 @@
+<h1>Daftar Produk</h1>
+<ul>
+    {% for p in produk %}
+    <li>
+        <a href="/produk/{{ p.id }}/">{{ p.nama }}</a> - {{ p.harga }}
+    </li>
+    {% endfor %}
+</ul>
+<a href="/">Kembali ke Home</a>
